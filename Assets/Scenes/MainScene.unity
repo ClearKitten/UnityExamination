@@ -279,7 +279,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 67eecc186f657984d92284ddc22d4965, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  audioSource: {fileID: 0}
+  audioSource: {fileID: 1424328995}
   currentMaterial: 0
   audioSoundType: []
 --- !u!61 &1424328997
@@ -621,8 +621,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 5
-  animator: {fileID: 0}
-  spriteRenderer: {fileID: 0}
+  animator: {fileID: 1424328999}
+  spriteRenderer: {fileID: 1424328998}
 --- !u!1 &1870695666
 GameObject:
   m_ObjectHideFlags: 0
