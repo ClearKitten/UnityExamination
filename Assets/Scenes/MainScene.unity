@@ -1005,6 +1005,17 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4343148689697516257, guid: 649ec666b11689848b943d5d0b06e8ae, type: 3}
   m_PrefabInstance: {fileID: 4477421446345450900}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1655137796 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 6653211025594790497, guid: 649ec666b11689848b943d5d0b06e8ae, type: 3}
+  m_PrefabInstance: {fileID: 4477421446345450900}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e2b75a5fab014214090b720dcb8029e8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1870695666
 GameObject:
   m_ObjectHideFlags: 0
@@ -1469,6 +1480,46 @@ PrefabInstance:
       propertyPath: pauseMenuCanvas
       value: 
       objectReference: {fileID: 1899924459}
+    - target: {fileID: 6737782172145091501, guid: 649ec666b11689848b943d5d0b06e8ae, type: 3}
+      propertyPath: m_ActionEvents.Array.size
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 6737782172145091501, guid: 649ec666b11689848b943d5d0b06e8ae, type: 3}
+      propertyPath: m_ActionEvents.Array.data[19].m_ActionId
+      value: 8904ff92-071a-48e8-bb26-375fdd02f1e5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6737782172145091501, guid: 649ec666b11689848b943d5d0b06e8ae, type: 3}
+      propertyPath: m_ActionEvents.Array.data[19].m_ActionName
+      value: 'Player/Pause[/Keyboard/escape]'
+      objectReference: {fileID: 0}
+    - target: {fileID: 6737782172145091501, guid: 649ec666b11689848b943d5d0b06e8ae, type: 3}
+      propertyPath: m_ActionEvents.Array.data[19].m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6737782172145091501, guid: 649ec666b11689848b943d5d0b06e8ae, type: 3}
+      propertyPath: m_ActionEvents.Array.data[19].m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6737782172145091501, guid: 649ec666b11689848b943d5d0b06e8ae, type: 3}
+      propertyPath: m_ActionEvents.Array.data[19].m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1655137796}
+    - target: {fileID: 6737782172145091501, guid: 649ec666b11689848b943d5d0b06e8ae, type: 3}
+      propertyPath: m_ActionEvents.Array.data[19].m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6737782172145091501, guid: 649ec666b11689848b943d5d0b06e8ae, type: 3}
+      propertyPath: m_ActionEvents.Array.data[19].m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: OnPause
+      objectReference: {fileID: 0}
+    - target: {fileID: 6737782172145091501, guid: 649ec666b11689848b943d5d0b06e8ae, type: 3}
+      propertyPath: m_ActionEvents.Array.data[19].m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: MenuController, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 6737782172145091501, guid: 649ec666b11689848b943d5d0b06e8ae, type: 3}
+      propertyPath: m_ActionEvents.Array.data[19].m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     - target: {fileID: 7123241922609562540, guid: 649ec666b11689848b943d5d0b06e8ae, type: 3}
       propertyPath: grassTilemap
       value: 
