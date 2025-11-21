@@ -16,6 +16,8 @@ public class PlayerMovement : MonoBehaviour
 
     public bool IsMoving => isMoving;
 
+    private bool canMove = true;
+
     private void Awake()
     {
         rb = GetComponent<Rigidbody2D>();
@@ -23,6 +25,7 @@ public class PlayerMovement : MonoBehaviour
 
     public void OnMove(InputAction.CallbackContext context)
     {
+        if(!canMove) return;
         movementInput = context.ReadValue<Vector2>();
     }
 
@@ -62,6 +65,13 @@ public class PlayerMovement : MonoBehaviour
             else
                 animator.SetInteger("Direction", 0); // Down
         }
+    }
+
+    public void LockPlayerMove()
+    {
+        rb.linearVelocity = Vector2.zero;
+        movementInput = Vector2.zero;
+        canMove = !canMove;
     }
 
 }
