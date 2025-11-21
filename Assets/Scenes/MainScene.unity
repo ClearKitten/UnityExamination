@@ -179,10 +179,10 @@ AudioSource:
   m_GameObject: {fileID: 1424328992}
   m_Enabled: 1
   serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 0}
+  OutputAudioMixerGroup: {fileID: 8466606332724175304, guid: 509fa1e31cb0e514a8f14e138050fd1c, type: 2}
   m_audioClip: {fileID: 0}
   m_Resource: {fileID: 0}
-  m_PlayOnAwake: 1
+  m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
   Loop: 0
@@ -320,7 +320,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.24023438, y: 0.40625}
+    oldSize: {x: 0.2265625, y: 0.44726562}
     newSize: {x: 0.2265625, y: 0.44726562}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
